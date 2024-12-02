@@ -14,13 +14,13 @@ Webpack configuration file to resolve odoo javascript imports.
 
 ## Troubleshooting
 Sometimes, PyCharm doesn't refresh changes immediately. You can try adding an alias manually, for example:
-```json
+```
 alias: {
   "@web": "/path/to/odoo/addons/web/src",
 }
 ```
 When resolve this import, change to the original code
-```json
+```
 alias: alias,
 ```
 ## Finally
