@@ -19,10 +19,12 @@ alias: {
   "@web": "/path/to/odoo/addons/web/src",
 }
 ```
-When resolve this import, change to the original code
+When resolve this import, change to the original code and check again.
 ```
 alias: alias,
 ```
+
+![Img03](images/img03.png)
 ## Finally
 If you know a better way for resolving Odoo javascript imports, please contact me
 racielperdomo1993@gmail.com
